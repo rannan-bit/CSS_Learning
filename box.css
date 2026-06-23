@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+h1{
+    border: 2px solid black;
+    padding: 10px 20px 10px 15px;
+    margin: 50px 20px;
+}
+
+/* padding for space between content and border */
+/* if we want same amount in four side we can use padding if all are distinct we can use each side or assign four values for padding */
+/* margin is used for adjust space between browser and element or nearby elements */
+/* if we want same amount in four side we can use margin if all are distinct we can use each side or assign four values for margin */
+/* we can move inline elements only in the direction of left and right using margin */

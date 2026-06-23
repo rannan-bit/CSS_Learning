@@ -1,0 +1,50 @@
+*{
+    background-color: rgb(155, 134, 1);
+    text-align: center;
+    
+}
+h1{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 50px 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+img{
+    height: 200px;
+    width: 500px;
+    border-radius: 15px;
+    
+}
+button{
+
+
+}
+#list{
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+.head{
+    text-decoration: underline;
+    font-weight: bold;
+}
+div p{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: rgb(112, 6, 210);
+
+}
+h3+button{
+    height: 100px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: rgb(69, 65, 2);
+    border:none;
+    text-align: center;
+    
+
+}

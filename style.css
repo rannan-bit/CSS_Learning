@@ -1,0 +1,44 @@
+/* use universal selector */
+*{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* use tag as selector */
+p{
+    color: brown;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 26px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+/* we a can use id and class for styling particular elements */
+/* if only few elements are for styling, it is better using id because of its uniqueness */
+/* style using id by using # */
+#head{
+    color: green;
+}
+/* styling using class */
+.grp{
+    background-color: yellow;
+}
+/* descendent selector: style child of parent */
+div p{
+    color: pink;
+}
+/*child selector*/
+div>h4{
+    text-decoration: underline;
+}
+/* sibling selector */
+h4~ul{
+    color: red;
+}
+/* immediate sibbling selector */
+h4+ul{
+    background-color: blueviolet;
+}
