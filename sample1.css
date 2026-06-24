@@ -5,6 +5,9 @@
     background-color: blue;
     /* float: left; */
     /* float used for allign elements in horizontal, and direction shoulbe provided */
+    position: absolute;
+    top: 30px;
+    /* position:absolute - */
 }
 #main{
     background-image: url(https://static.vecteezy.com/system/resources/thumbnails/036/798/913/small_2x/ai-generated-an-abstract-painting-of-a-colorful-tree-and-leaves-free-photo.jpg);
@@ -23,8 +26,39 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: black;
     
 }
 #head{
 
+}
+/* position property:posiible values- relative,fixed ,absolute*/
+/* can move elements by using top prperty and it only possible if the position property is applied */
+header{
+    padding: 10px;
+    background-color: black;
+    position: fixed;
+    height: 70px;
+}
+h1{
+    color: red;
+    margin: 10px;
+
+}
+p{
+    margin: 10px;
+    text-align: justify;
+    font-size: 20px;
+}
+#row{
+    height: 400px;
+    background-color: antiquewhite;
+    position: relative;
+
+    
+}
+marquee{
+    background-color: yellow;
+    position: sticky;
+    top: 70px;
 }

@@ -1,0 +1,34 @@
+*{
+    background-color: black;
+}
+h3{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    height: 200px;
+    width: 150px;
+    border: 2px solid black;
+    float: left;
+}
+.col1{
+    height: 200px;
+    width: 150px;
+    border: 2px solid black;
+    float: left;
+
+}
+.col2{
+    height: 200px;
+    width: 150px;
+    border: 2px solid black;
+    float: left;  
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

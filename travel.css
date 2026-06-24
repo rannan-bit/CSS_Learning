@@ -1,0 +1,20 @@
+*{
+    /* background-color: antiquewhite; */
+    margin: 0px;
+}
+#head{
+    text-align: center;
+    font-size: 34px;
+
+}
+#images{
+    height: 800px;
+    position: relative;
+    display: flex;
+    margin-left: 210px;
+
+    
+}
+#desc{
+    width: 250px;
+}
